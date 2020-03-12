@@ -1,0 +1,64 @@
+body{
+	margin: 40px;
+    font-family: "comic sans";
+    background-image: url("../img/torre.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+p{
+    color:white;
+    text-align: center;
+    line-height: 200%;
+   
+}
+#principal{
+    color:rgb(255, 255, 255);
+    font-size:40px;
+    text-align: center;
+}
+.texto{
+    font-family:cursive;
+    color:black; 
+    text-align: center;
+    }
+    a{
+        color:rgb(231, 186, 102);
+        text-decoration: none;
+        font-weight: bold;
+        background-color: rgb(15, 35, 49);
+    }
+    a:hover {
+        color:rgb(143, 7, 120);
+        background-color:rgb(54, 75, 99);
+    }
+    #contenido{
+
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.027);
+}
+#menu{
+    float: none;
+    width: 25%;
+    background-color: rgba(30, 37, 58, 0.007);
+    padding: 10px;
+    font-family: cursive;
+    color: rgb(109, 87, 40);
+    border-radius: 10px;
+}
+#ul{
+
+background-color: seagreen;
+}
+
+#img_principal{
+width: 500px;
+margin: auto;
+display:block
+
+    }
+
+    

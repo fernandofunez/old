@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(164, 127, 199);
+    color: #232323;
     font-size: 1.5rem;
     overflow-x: hidden;
                                
@@ -44,13 +44,16 @@ nav li a {
     text-decoration: none;
 }
 
-#noticias-destacadas{
- width: 300%;
+#noticias-destacadas {
+ width: 300vw;
  overflow: auto;
+ animation: 20s slider infinite;
+ 
  
 }
 figure {
    float: left;
+   width: 100vw;
    
    
 }
@@ -67,4 +70,15 @@ figure figcaption h2{
     font-size: 4rem;
     padding: 2rem;
     line-height: 100%;
+}
+
+@keyframes slider {
+ 0% {margin-left: 0;}
+ 
+ 20% { margin-left: 0 }
+ 40% { margin-left: -100vw }
+ 60% { margin-left: -100vw }
+ 80% { margin-left: -200vw }
+
+ 100% {margin-left: -200vw;}
 }

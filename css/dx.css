@@ -2,18 +2,21 @@
     font-size: 62.5%;
 }
 
-
+* {
+    outline: dotted 1px red;
+}
 
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(164, 127, 199);
     font-size: 1.5rem;
+    overflow-x: hidden;
+                               
 }
 header{
-    background-color: #504646;
+    background-color: #232323;
     padding: 2rem;
     overflow:auto;
-
 }
 h1{
     font-size: 2.5rem;
@@ -29,22 +32,31 @@ h1{
  nav {  
    float: right; 
    margin-top: 0.5rem;
-
 }
 nav li {
 
-display:inline;
+display: inline;
 margin: 0 1rem;
 
 }
 nav li a {
     color: #fff;
     text-decoration: none;
+}
 
+#noticias-destacadas{
+ width: 300%;
+ overflow: auto;
+ 
+}
+figure {
+   float: left;
+   
+   
 }
 figure img{
     display: block;
-    width: 80rem;
+    width: 100%;
 }
 figure figcaption{
     background-color: #232323;

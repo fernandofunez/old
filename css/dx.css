@@ -104,6 +104,17 @@ figure figcaption h2{
     color: #000;
 }
 
+#tabla-resultados table {
+ margin: auto;
+}
+#tabla-resultados table th{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
 
 @keyframes slider {
  0% {margin-left: 0;}

@@ -85,7 +85,7 @@ img{
 	align-items: center;
 	justify-content: space-between;
 	padding: 10px;
-	margin: 10px;
+	margin  : 10px;
 }
 .noticia:last-child{
     border: none;
